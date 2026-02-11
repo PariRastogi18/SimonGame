@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 h1 {
   text-align: center;
 }
@@ -12,6 +16,17 @@ h2 {
   flex-wrap: wrap;
   width: 400px;
   margin: auto;
+}
+
+#strBtn {
+  text-align: center;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 3px;
+  border: 2px solid black;
 }
 .btn {
   height: 150px;

@@ -9,15 +9,9 @@ let maxScore = 0;
 
 let h2 = document.querySelector("h2");
 let body = document.querySelector("body");
+let strBtn = document.querySelector("#strBtn");
 
-// document.addEventListener("keypress", function () {
-//   if (started == false) {
-//     console.log("game started");
-//     started = true;
-//     levelUp();
-//   }
-// });
-document.addEventListener("click", function () {
+strBtn.addEventListener("click", function () {
   if (started == false) {
     console.log("game started");
     started = true;
@@ -35,6 +29,7 @@ function levelUp() {
   userSeq = [];
   level++;
   h2.innerText = `Level ${level}`;
+  strBtn.innerText = "Start";
   let randIdx = Math.floor(Math.random() * 3);
   let randColor = btns[randIdx];
   let randBtn = document.querySelector(`.${randColor}`);
@@ -59,6 +54,7 @@ function checkAns(idx) {
     maxScore = Math.max(level, maxScore);
     h2.innerHTML = `Game Over! Your score was <b>${level}</b> and Max Score was ${maxScore} Press any key to start.`;
     document.querySelector("body").style.backgroundColor = "red";
+    strBtn.innerText = "Restart";
     playSound();
     setTimeout(function () {
       document.querySelector("body").style.backgroundColor = "white";
