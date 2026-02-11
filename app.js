@@ -52,7 +52,7 @@ function checkAns(idx) {
     console.log("Same value");
   } else {
     maxScore = Math.max(level, maxScore);
-    h2.innerHTML = `Game Over! Your score was <b>${level}</b> and Max Score was ${maxScore} Press any key to start.`;
+    h2.innerHTML = `Game Over! Your score was <b>${level}</b> and Max Score was ${maxScore}.`;
     document.querySelector("body").style.backgroundColor = "red";
     strBtn.innerText = "Restart";
     playSound();
