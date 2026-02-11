@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+}
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.pink {
+  background-color: pink;
+}
+.green {
+  background-color: greenyellow;
+}
+.blue {
+  background-color: skyblue;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.flash {
+  background-color: white;
+}
+.flashRed {
+  background-color: white;
+}
+
+@media (max-width: 425px) {
+  body {
+    width: fit-content;
+  }
+}
