@@ -52,6 +52,8 @@ Simon-Says-Game/
 ##📸 Screenshot
 
 <img width="660" height="790" alt="image" src="https://github.com/user-attachments/assets/700bf0cd-f07b-483d-a9b7-e9959571ca81" />
+
+
 ##📚 Learning Outcomes
 
 DOM Manipulation
