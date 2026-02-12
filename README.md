@@ -49,12 +49,12 @@ Simon-Says-Game/
 ├── script.js
 └── README.md
 
-##📸 Screenshot
+## 📸 Screenshot
 
 <img width="660" height="790" alt="image" src="https://github.com/user-attachments/assets/700bf0cd-f07b-483d-a9b7-e9959571ca81" />
 
 
-##📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 DOM Manipulation
 
@@ -66,16 +66,16 @@ Random Number Generation
 
 Game Logic
 
-##🤝 Contribution
+## 🤝 Contribution
 
 Contributions are welcome!
 Fork the repository and submit a pull request.
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Pari Rastogi
 Aspiring Software Developer 🚀
